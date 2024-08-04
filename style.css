@@ -1,8 +1,105 @@
-/* 使图片在页面中适应并设置为25%宽度 */
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+  <meta name="description" content="Cinématographe Poetry Group"
+/>
+  <title>Cinématographe Poetry Group</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="style.css"> <!--
+确保这一行在<head>部分 -->
+</head>
+<body> 
+  <h1>Cinématographe Poetry Group</h1>
+  <p>一个开始</p>
+  <img src="images/cinematographe_poetry_group.png"
+alt="Cinématographe Poetry Group" />
+</body>
+</html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+  <meta name="description" content="Cinématographe Poetry Group"
+/>
+  <title>Cinématographe Poetry Group</title>
+  <link rel="icon" href="images/favicon.ico">
+</head>
+<body> 
+  <h1>Cinématographe Poetry Group</h1>
+  <p>一个开始</p>
+  <img src="images/cinematographe_poetry_group.png"
+alt="Cinématographe Poetry Group" />
+</body>
+</html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cinématographe Poetry Group" />
+  <title>Cinématographe Poetry Group</title>
+  <link rel="icon" href="images/favicon.ico">
+</head>
+<body> 
+  <h1>Cinématographe Poetry Group</h1>
+  <p>一个开始</p>
+  <img src="images/poetry_group.jpg" alt="Cinématographe Poetry Group" />
+</body>
+</html>
+
+
+
+/* 使用微软雅黑字体 */
+body {
+  font-family: 'Microsoft YaHei', sans-serif;
+  background-color: #f4f4f4; /* 胶沙绿背景色 */
+  color: #333; /* 主体文字颜色 */
+  text-align: center; /* 中央对齐文字 */
+}
+
+h1 {
+  color: #004d00; /* 深豆沙绿标题颜色 */
+  margin-bottom: 20px;
+}
+
 img {
-  max-width: 25%; /* 图片最大宽度为25% */
-  height: auto;   /* 高度自动调整，以保持比例 */
-  display: block; /* 使图片成为块级元素 */
-  margin: 0 auto; /* 图片居中显示 */
+  max-width: 50%; /* 图片宽度设置为最大50% */
+  height: auto; /* 高度自动调整，保持比例 */
+  display: block; /* 使图片在中心显示 */
+  margin: 0 auto; /* 图片居中 */
+}
+
+p {
+  color: #333; /* 主体文字颜色 */
+  font-size: 16px; /* 字体大小 */
+}
+/* 使用微软雅黑字体 */
+body {
+  font-family: 'Microsoft YaHei', sans-serif;
+  background-color: #f4f4f4; /* 胶沙绿背景色 */
+  color: #333; /* 主体文字颜色 */
+  text-align: center; /* 中央对齐文字 */
+}
+
+h1 {
+  color: #004d00; /* 深豆沙绿标题颜色 */
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 50%; /* 图片宽度设置为最大50% */
+  height: auto; /* 高度自动调整，保持比例 */
+  display: block; /* 使图片在中心显示 */
+  margin: 0 auto; /* 图片居中 */
+}
+
+p {
+  color: #333; /* 主体文字颜色 */
+  font-size: 16px; /* 字体大小 */
 }
 
