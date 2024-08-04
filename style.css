@@ -5,56 +5,57 @@ body {
   color: #333; /* 字体颜色 */
   margin: 0;
   padding: 0;
+  text-align: center; /* 所有文本居中 */
 }
 
-/* 标题样式 */
-h1 {
-  margin-top: 20px;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 使容器占满视口高度 */
+  text-align: center; /* 所有文本居中 */
+}
+
+h1.title {
+  margin: 0;
   font-size: 2em;
   color: #2a5d34; /* 标题颜色 */
-  text-align: center; /* 标题居中显示 */
 }
 
-/* 图片样式 */
-.centered-image {
-  max-width: 50%; /* 图片宽度为容器宽度的50% */
-  height: auto; /* 高度自动调整 */
-  display: block; /* 使图片作为块元素显示 */
-  margin: 20px auto; /* 图片上下外边距20px，左右自动居中 */
-}
-
-/* 文字样式 */
-.start-text, .email {
-  font-size: 1.2em; /* 字体大小 */
-  margin: 10px 0; /* 上下外边距10px */
-}
-
-/* 横向显示的文字 */
-.start-text {
-  text-align: center; /* 文字居中显示 */
-}
-
-/* 邮箱样式 */
-.email {
-  font-size: 1.2em; /* 字体大小 */
-  margin-top: 20px; /* 上边距20px */
-}
-
-/* 垂直显示的标题 */
-.vertical-title, .vertical-text {
-  writing-mode: vertical-rl; /* 垂直显示 */
-  text-align: center; /* 文字居中显示 */
-  position: absolute; /* 绝对定位 */
-  top: 20px; /* 距离顶部20px */
-}
-
-/* 垂直标题的位置 */
 .vertical-title {
-  right: 20px; /* 距离右边20px */
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  font-size: 1.5em;
+  color: #2a5d34;
+  white-space: nowrap;
 }
 
-/* 垂直文字的位置 */
 .vertical-text {
-  left: 20px; /* 距离左边20px */
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  font-size: 1.4em;
+  color: #666;
+  white-space: nowrap;
+}
+
+.centered-image {
+  max-width: 50%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.start-text {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.email {
+  margin-top: 20px;
+  font-size: 1em;
 }
 
