@@ -13,13 +13,13 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
 }
 
 h1.title {
-  margin: 0;
+  margin: 20px 0;
   font-size: 2em;
   color: #2a5d34; /* 标题颜色 */
+  text-align: center;
 }
 
 .vertical-title {
