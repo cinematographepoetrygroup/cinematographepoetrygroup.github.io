@@ -9,41 +9,43 @@ body {
 }
 
 .container {
-  position: relative;
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .title {
+  margin-top: 20px;
   font-size: 2em;
   color: #2a5d34; /* 标题颜色 */
 }
 
 .vertical-title {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 2em;
   position: absolute;
   right: 0;
   top: 50%;
-  transform: translateY(-50%);
-  writing-mode: vertical-rl;
-  font-size: 2em;
+  transform: translateY(-50%) rotate(180deg);
   color: #2a5d34; /* 标题颜色 */
 }
 
 .vertical-text {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
   writing-mode: vertical-rl;
+  transform: rotate(180deg);
   font-size: 1.5em;
-  color: #2a5d34; /* 文本颜色 */
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  color: #2a5d34; /* 标题颜色 */
 }
 
 .centered-image {
-  width: 25%; /* 设置图片宽度 */
+  width: 25%; /* 设置图片宽度为页面宽度的25% */
+  margin: 20px 0;
 }
 
 .start-text {
@@ -52,7 +54,7 @@ body {
 }
 
 .email {
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 10px 0;
 }
 
