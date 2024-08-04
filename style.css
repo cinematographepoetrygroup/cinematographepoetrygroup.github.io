@@ -3,13 +3,21 @@ body {
   font-family: "微软雅黑", sans-serif; /* 使用微软雅黑字体 */
   background-color: #f0f4f0; /* 胶绿背景色 */
   color: #333; /* 字体颜色 */
-  text-align: center; /* 文本居中 */
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
-h1 {
-  margin-top: 20px;
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1.title {
+  margin: 0;
   font-size: 2em;
   color: #2a5d34; /* 标题颜色 */
 }
@@ -20,9 +28,8 @@ h1 {
   text-align: right;
   writing-mode: vertical-rl; /* 文字垂直显示 */
   position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
+  top: 20px; /* 调整为你需要的垂直位置 */
+  right: 20px; /* 调整为你需要的水平位置 */
 }
 
 .vertical-text {
@@ -31,15 +38,16 @@ h1 {
   text-align: left;
   writing-mode: vertical-rl; /* 文字垂直显示 */
   position: absolute;
-  top: 50%;
-  left: 10px;
+  top: 50%; /* 垂直居中 */
+  left: 20px; /* 调整为你需要的水平位置 */
   transform: translateY(-50%);
 }
 
 .centered-image {
-  max-width: 50%; /* 图片最大宽度 */
+  max-width: 25%; /* 图片最大宽度 */
   height: auto;
-  margin: 20px 0;
+  margin: 20px auto; /* 图片上下居中 */
+  display: block;
 }
 
 .start-text {
@@ -49,7 +57,7 @@ h1 {
 }
 
 .email {
-  margin: 20px 0;
+  margin: 10px 0;
   font-size: 1em;
   color: #333;
 }
