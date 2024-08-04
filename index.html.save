@@ -1,5 +1,9 @@
 nano style.css
-nano style.css
+
+# 确认文件内容正确后，执行以下命令：
+git add .
+git commit -m "Fix layout and style"
+git push origin main
 ---
 title: Cinématographe Poetry Group 电影书写诗小组
 layout: default
